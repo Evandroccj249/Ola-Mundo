@@ -6,6 +6,7 @@
     <title>Document</title>
     <style>
         body {
+            /* Comentério */
             background-color: rgb(105, 105, 173);
             color: white;
             font: normal 20pt Arial;
@@ -14,12 +15,20 @@
 </head>
 <body>
     <h1>
+        <!--Isso é um comentário-->
          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt consectetur atque similique, quod ratione qui. Voluptas libero vitae quos sunt eveniet? Impedit cumque aliquid perferendis, sint consectetur voluptatem distinctio?</p>
     </h1>
     <script>
-        window.alert('Minha primeira mensagem!')
-        window.confirm('Está gostando de JS?')
-        window.prompt('Qual o seu nome?')
+        // window.alert('Minha primeira mensagem!')
+        // window.confirm('Está gostando de JS?')
+/*        var nome = window.prompt('Qual o seu nome?')
+        window.alert('Oi, ' + nome) */
+
+        var n1 = Number(window.prompt('Digite um numero:'))
+        var n2 = Number(window.prompt('Digite outro numero:'))
+        var soma = n1 + n2
+        // window.alert('A soma dos valores é ' + soma)
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`)
     </script>
     
 </body>
